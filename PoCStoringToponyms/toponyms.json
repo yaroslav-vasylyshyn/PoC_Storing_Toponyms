@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "67e3e9869217495b426bcd96",
+    "Oblast": "Львівська область",
+    "AdminRegionOld": "Франківський р-н",
+    "AdminRegionNew": "Франківський район",
+    "Gromada": "ЛЬвівська ТГ",
+    "Community": "м. Львів",
+    "StreetName": "Городоцька",
+    "StreetType": "вулиця",
+    "Coordinate": {
+      "Latitude": 50.50688,
+      "Longitude": 29.785
+    }
+  },
+  {
+    "Id": "67e3e9869217495b426bcd97",
+    "Oblast": "Херсонська область",
+    "AdminRegionOld": "Херсонський р-н",
+    "AdminRegionNew": "Херсонський район",
+    "Gromada": "Херсонська ТГ",
+    "Community": "м. Херсон",
+    "StreetName": "Соборна",
+    "StreetType": "вулиця",
+    "Coordinate": {
+      "Latitude": 50.50688,
+      "Longitude": 28.785
+    }
+  }
+]
