@@ -1,5 +1,6 @@
 ### Overview
 PoCStoringToponyms is a proof-of-concept (PoC) project demonstrating how to store Toponym data in MongoDB. It features a repository pattern to abstract data access, and includes a simple example of converting a list of Toponyms into JSON and saving them both in the database and as a .json file.
+[Project Architecture Diagram](PoCStoringToponyms/images/project_architecture.png)
 
 ### Prerequisites
 .NET 7 SDK (or later)
