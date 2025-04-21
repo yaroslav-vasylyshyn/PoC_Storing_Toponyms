@@ -1,0 +1,169 @@
+<mxfile host="Electron" modified="2025-04-09T17:19:16.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="yMjAyPZfKbaUyzKclNOI" version="22.1.2" type="device">
+  <diagram name="Сторінка-1" id="JeZfg_TqCyDN2ajg6mki">
+    <mxGraphModel dx="1649" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="atirqa4AO9MCj91lS5af-1" value="UkrPoshta API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="153.75" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="atirqa4AO9MCj91lS5af-3" target="atirqa4AO9MCj91lS5af-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-3" value="Our backend&lt;br&gt;(comparing and parsing toponyms)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="150" width="190" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="atirqa4AO9MCj91lS5af-1" target="atirqa4AO9MCj91lS5af-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="333.75" as="sourcePoint" />
+            <mxPoint x="310" y="333.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-6" value="Fetching archive with Toponyms" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="atirqa4AO9MCj91lS5af-5" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="atirqa4AO9MCj91lS5af-3" target="atirqa4AO9MCj91lS5af-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="203.75" as="sourcePoint" />
+            <mxPoint x="630" y="173.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-13" value="Saving new Toponyms" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="atirqa4AO9MCj91lS5af-12" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="atirqa4AO9MCj91lS5af-14" target="atirqa4AO9MCj91lS5af-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-14" value="MongoDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+          <mxGeometry x="670" y="153.75" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-16" value="MS SQL&amp;nbsp; Db" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="670" y="230" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-22" value="not used for saving Toponyms anymore" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="540" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="atirqa4AO9MCj91lS5af-27" value="used for comparing existing Toponyms with new Toponyms&amp;nbsp;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="570" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-1" target="ivJmpxStFELDcz36ySy4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-2" target="ivJmpxStFELDcz36ySy4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-3" value="is used" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="10" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-6" value="is not used" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-8" target="ivJmpxStFELDcz36ySy4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-8" value="Downloading and extracting data to a specified directory (every month)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1207" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-9" value="UkrPoshta API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1222" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-9" target="ivJmpxStFELDcz36ySy4-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1292" as="sourcePoint" />
+            <mxPoint x="310" y="1132.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-11" value="Fetching archive with Toponyms" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ivJmpxStFELDcz36ySy4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-12" target="ivJmpxStFELDcz36ySy4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-12" value="Processing CSV Files&lt;br&gt;(by comparing csv file we fetched and the file we stored before)&lt;br&gt;&lt;span id=&quot;docs-internal-guid-e9a11e71-7fff-2b92-312c-fb55e675911b&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1207" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-14" target="ivJmpxStFELDcz36ySy4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-14" value="Parsing of the data that needs to be added to the db, fetching coordinates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1207" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-16" value="Adding new Toponyms to MS SQL DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1207" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-25" target="ivJmpxStFELDcz36ySy4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-25" value="Downloading and extracting data to a specified directory (every month)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="861" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-26" value="UkrPoshta API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="876" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-26" target="ivJmpxStFELDcz36ySy4-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="946" as="sourcePoint" />
+            <mxPoint x="310" y="786.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-28" value="Fetching archive with Toponyms" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ivJmpxStFELDcz36ySy4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-30" target="ivJmpxStFELDcz36ySy4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-30" value="Processing Toponyms Data&lt;br&gt;(by comparing data that we stored in the db and data we fetched)&lt;br&gt;&lt;span id=&quot;docs-internal-guid-e9a11e71-7fff-2b92-312c-fb55e675911b&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="540" y="861" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-32" target="ivJmpxStFELDcz36ySy4-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-32" value="Parsing of the data that needs to be added to the db, fetching coordinates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="861" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-33" value="Adding new Toponyms to MongoDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="950" y="861" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-35" target="ivJmpxStFELDcz36ySy4-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1011" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-36" value="needs to be changed, if we don&#39;t &lt;br&gt;want to store csv files locally" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="996" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-39" target="ivJmpxStFELDcz36ySy4-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="10" y="740" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-40" value="new implementation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="740" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivJmpxStFELDcz36ySy4-42" target="ivJmpxStFELDcz36ySy4-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1081" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-43" value="Can be changed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1081" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-45" value="How saving toponyms works now" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1161" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ivJmpxStFELDcz36ySy4-46" value="How saving toponyms should work" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="810" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
